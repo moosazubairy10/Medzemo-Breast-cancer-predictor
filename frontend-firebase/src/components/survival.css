@@ -1,0 +1,30 @@
+.form-group .thing-text {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  bottom: 125%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+  visibility: hidden;
+  width: 125;
+  background-color: tomato;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 7px;
+  padding: 6px 0;
+}
+.form-group .thing-text:after {
+  content: "";
+  top: 100%;
+  left: 50%;
+  position: absolute;
+  border-style: solid;
+  border-color: rgb(126, 79, 71) transparent transparent transparent;
+  margin-left: -5px;
+  border-width: 5px;
+}
+.form-group:hover .thing-text {
+  visibility: visible;
+  opacity: 1;
+}

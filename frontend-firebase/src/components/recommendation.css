@@ -1,0 +1,22 @@
+.card {
+  border-width: 1.1px;
+  width: 209px;
+  height: 444px;
+  border-color: #3d735e;
+  background-color: #ebe1e4;
+}
+.card-deck {
+  background-color: transparent;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px #0f5439 !important;
+}
+.card-body {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  background-color: #dec8ce;
+}
+.card-text {
+  font-size: 9rem;
+  padding: 0.4rem 1.9rem;
+}
