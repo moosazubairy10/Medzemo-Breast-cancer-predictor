@@ -12,7 +12,7 @@
     "chart.js": "^2.9.2",
     "classnames": "^2.2.6",
     "firebase": "^5.5.4",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "infinite-react-carousel": "^1.2.1",
     "jquery": "^3.4.1",
     "jspdf": "^1.4.1",
